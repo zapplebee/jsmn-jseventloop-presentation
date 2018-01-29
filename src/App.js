@@ -18,6 +18,8 @@ import GPU03 from './GPU03'
 import GPU06 from './GPU06'
 import GPU07 from './GPU07'
 import Worker01 from './Worker01.js'
+import Worker02 from './Worker02.js'
+import Worker03 from './Worker03.js'
 import 'highlight.js/styles/solarized-dark.css'
 
 const Pages = [
@@ -39,6 +41,8 @@ const Pages = [
   {route: '/gpu-04', component: GPU06},
   {route: '/gpu-05', component: GPU07},
   {route: '/worker-01', component: Worker01},
+  {route: '/worker-02', component: Worker02},
+  {route: '/worker-03', component: Worker03},
   ]
 
 class Clicker extends Component {
