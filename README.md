@@ -4,3 +4,5 @@ to run locally
 * `git pull`
 * `yarn`
 * `yarn run start`
+
+Ignore the mess...
