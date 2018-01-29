@@ -12,8 +12,12 @@ import MultiThread05 from './MultiThread05'
 import MultiThread06 from './MultiThread06'
 import MultiThread07 from './MultiThread07'
 import GPU01 from './GPU01'
+import GPU01a from './GPU01a'
 import GPU02 from './GPU02'
 import GPU03 from './GPU03'
+import GPU06 from './GPU06'
+import GPU07 from './GPU07'
+import Worker01 from './Worker01.js'
 import 'highlight.js/styles/solarized-dark.css'
 
 const Pages = [
@@ -29,8 +33,12 @@ const Pages = [
   {route: '/multithread-08', component: MultiThread06},
   {route: '/multithread-09', component: MultiThread07},
   {route: '/gpu-01', component: GPU01},
+  {route: '/gpu-01a', component: GPU01a},
   {route: '/gpu-02', component: GPU02},
   {route: '/gpu-03', component: GPU03},
+  {route: '/gpu-04', component: GPU06},
+  {route: '/gpu-05', component: GPU07},
+  {route: '/worker-01', component: Worker01},
   ]
 
 class Clicker extends Component {
