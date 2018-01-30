@@ -24,10 +24,15 @@ import Worker04 from './Worker04.js'
 import Worker05 from './Worker05.js'
 import Intro01 from './Intro01'
 import Intro02 from './Intro02'
+import Intro02a from './Intro02a'
+import Intro02b from './Intro02b'
 import Intro03 from './Intro03'
 import Intro04 from './Intro04'
 import Intro05 from './Intro05'
 import Intro06 from './Intro06'
+import Intro06a from './Intro06a'
+import Intro06b from './Intro06b'
+import Intro07 from './Intro07'
 import 'highlight.js/styles/solarized-dark.css'
 
 const Pages = [
@@ -35,10 +40,15 @@ const Pages = [
   {route: '/1', component: Slide02},
   {route: '/intro-01', component: Intro01},
   {route: '/intro-02', component: Intro02},
+  {route: '/intro-02a', component: Intro02a},
+  {route: '/intro-02b', component: Intro02b},
   // {route: '/intro-03', component: Intro03},
   {route: '/intro-04', component: Intro04},
   {route: '/intro-05', component: Intro05},
   {route: '/intro-06', component: Intro06},
+  {route: '/intro-06a', component: Intro06a},
+  {route: '/intro-06b', component: Intro06b},
+  {route: '/intro-07', component: Intro07},
   {route: '/multithread-01', component: MultiThread01},
   {route: '/multithread-02', component: MultiThread02},
   {route: '/multithread-03', component: MultiThread03},
@@ -120,6 +130,30 @@ class Clicker extends Component {
   }
 }
 
+
+class Whiteboard extends Component {
+
+  render() {
+    return (
+      <div style={{
+        position: 'fixed',
+        right: '1rem',
+        bottom: '3.5rem',
+        height: '2rem',
+        width: '5rem',
+        backgroundColor: 'rgba(0,0,0,0.7',
+        display: 'flex',
+        alignItems: 'center',
+        padding: '0rem 0.5rem',
+        justifyContent: 'space-between',
+        userSelect: 'none'
+      }}>
+        <a style={{color: 'white', textAlign: 'center', width: '100%'}} href='https://codepen.io/zapplebee/full/oEgoZx/' target='_blank'>Draw</a>
+      </div>
+    )
+  }
+}
+
 const ConnectedClicker = withRouter(Clicker)
 
 const App = () => (
@@ -128,6 +162,7 @@ const App = () => (
         <Switch>
           {Pages.map((e, i) => <Route exact key={i} path={e.route} component={e.component}/>)}
         </Switch>
+        <Whiteboard/>
         <ConnectedClicker/>
       </Fragment>
     </BrowserRouter>
