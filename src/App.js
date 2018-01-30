@@ -20,11 +20,25 @@ import GPU07 from './GPU07'
 import Worker01 from './Worker01.js'
 import Worker02 from './Worker02.js'
 import Worker03 from './Worker03.js'
+import Worker04 from './Worker04.js'
+import Worker05 from './Worker05.js'
+import Intro01 from './Intro01'
+import Intro02 from './Intro02'
+import Intro03 from './Intro03'
+import Intro04 from './Intro04'
+import Intro05 from './Intro05'
+import Intro06 from './Intro06'
 import 'highlight.js/styles/solarized-dark.css'
 
 const Pages = [
   {route: '/', component: Slide01},
   {route: '/1', component: Slide02},
+  {route: '/intro-01', component: Intro01},
+  {route: '/intro-02', component: Intro02},
+  // {route: '/intro-03', component: Intro03},
+  {route: '/intro-04', component: Intro04},
+  {route: '/intro-05', component: Intro05},
+  {route: '/intro-06', component: Intro06},
   {route: '/multithread-01', component: MultiThread01},
   {route: '/multithread-02', component: MultiThread02},
   {route: '/multithread-03', component: MultiThread03},
@@ -43,6 +57,8 @@ const Pages = [
   {route: '/worker-01', component: Worker01},
   {route: '/worker-02', component: Worker02},
   {route: '/worker-03', component: Worker03},
+  {route: '/worker-04', component: Worker04},
+  {route: '/worker-05', component: Worker05},
   ]
 
 class Clicker extends Component {
