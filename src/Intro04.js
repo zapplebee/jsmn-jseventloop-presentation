@@ -20,7 +20,7 @@ class m07 extends React.Component {
         <code className='javascript' style={{whiteSpace: 'pre', display: 'inline-block', margin: 'auto', alignSelf:'center', padding: '2em', fontSize: '1rem'}} ref={node => {this.nodes.push(node)}}>
           {`
 const d20 = (isLucky) => {
-  console.log(\`Rolling my \${isLucky} ? 'lucky' : 'unlucky'} D20\`) // 2nd
+  console.log(\`Rolling my \${isLucky ? 'lucky' : 'unlucky'} D20\`) // 2nd
   return Math.ceil(Math.random() * 20)
 }
 

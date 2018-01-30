@@ -26,29 +26,51 @@ import Intro01 from './Intro01'
 import Intro02 from './Intro02'
 import Intro02a from './Intro02a'
 import Intro02b from './Intro02b'
-import Intro03 from './Intro03'
+import Intro03 from './Intro3'
 import Intro04 from './Intro04'
 import Intro05 from './Intro05'
 import Intro06 from './Intro06'
 import Intro06a from './Intro06a'
 import Intro06b from './Intro06b'
 import Intro07 from './Intro07'
+import TheStack from './TheStack'
+import ThreadBlocking from './ThreadBlocking'
+import Callback01 from './Callback02'
+import Callback02 from './Callback01'
+import Callback03 from './Callback03'
+import Callback04 from './Callback04'
+import Callback05 from './Callback05'
+import Callback06 from './Callback06'
+import Audience from './Audience'
 import 'highlight.js/styles/solarized-dark.css'
 
 const Pages = [
   {route: '/', component: Slide01},
   {route: '/1', component: Slide02},
-  {route: '/intro-01', component: Intro01},
   {route: '/intro-02', component: Intro02},
+  {route: '/intro-01', component: Intro01},
   {route: '/intro-02a', component: Intro02a},
   {route: '/intro-02b', component: Intro02b},
-  // {route: '/intro-03', component: Intro03},
-  {route: '/intro-04', component: Intro04},
-  {route: '/intro-05', component: Intro05},
+  {route: '/the-stack', component: TheStack},
+  {route: '/intro-03', component: Intro03},
+  {route: '/intro-03a', component: Intro06a},
+  {route: '/intro-03b', component: Intro06b},
+  {route: '/intro-04', component: Audience},
+  // {route: '/intro-04', component: Intro04},
+  // {route: '/intro-05', component: Intro05},
   {route: '/intro-06', component: Intro06},
-  {route: '/intro-06a', component: Intro06a},
-  {route: '/intro-06b', component: Intro06b},
+  {route: '/intro-08', component: ThreadBlocking},
   {route: '/intro-07', component: Intro07},
+  {route: '/callback-01', component: Callback01},
+  {route: '/callback-02', component: Callback03},
+  {route: '/callback-03', component: Callback04},
+  {route: '/callback-04', component: Callback02},
+  {route: '/callback-05', component: Callback05},
+  {route: '/callback-06', component: Callback06},
+  {route: '/callback-07', component: Intro06},
+  {route: '/callback-08', component: Audience},
+
+
   {route: '/multithread-01', component: MultiThread01},
   {route: '/multithread-02', component: MultiThread02},
   {route: '/multithread-03', component: MultiThread03},
