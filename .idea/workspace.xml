@@ -2,37 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="120ae4b5-a8b0-4816-b30d-8e37494ebd42" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/worker.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/workerExample.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/BackToReality.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/BackToReality2.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/CanIUse.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Canditates.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Contrived.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Contrived2.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Contrived3.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/EventLoop.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Nope.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/RollAnimation.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/RollPromise.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/RollSetTimeout.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/RollSync.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/RollSyncRecursive.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/SingleThreaded.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/SingleThreaded2.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/SoHow.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/SoHow2.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Thanks.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/WebAPIs.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/WhyIsSingleThreadedGood.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
-      <change beforePath="$PROJECT_DIR$/src/Intro06.js" afterPath="$PROJECT_DIR$/src/Intro06.js" />
-      <change beforePath="$PROJECT_DIR$/src/MultiThread07.js" afterPath="$PROJECT_DIR$/src/MultiThread07.js" />
-      <change beforePath="$PROJECT_DIR$/src/Worker02.js" afterPath="$PROJECT_DIR$/src/Worker02.js" />
-      <change beforePath="$PROJECT_DIR$/src/Worker03.js" afterPath="$PROJECT_DIR$/src/Worker03.js" />
-      <change beforePath="$PROJECT_DIR$/src/Worker04.js" afterPath="$PROJECT_DIR$/src/Worker04.js" />
-      <change beforePath="$PROJECT_DIR$/src/Worker05.js" afterPath="$PROJECT_DIR$/src/Worker05.js" />
+      <change beforePath="$PROJECT_DIR$/src/Slide01.js" afterPath="$PROJECT_DIR$/src/Slide01.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -59,8 +30,20 @@
         <entry file="file://$PROJECT_DIR$/src/Thanks.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
-              <caret line="6" column="115" lean-forward="false" selection-start-line="6" selection-start-column="115" selection-end-line="6" selection-end-column="115" />
+              <caret line="6" column="120" lean-forward="true" selection-start-line="6" selection-start-column="120" selection-end-line="6" selection-end-column="120" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Slide01.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Slide01.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,21 +98,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SingleThreaded2.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SingleThreaded2.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="6" column="131" lean-forward="false" selection-start-line="6" selection-start-column="131" selection-end-line="6" selection-end-column="131" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Worker03.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Worker03.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Worker03.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="10" column="165" lean-forward="false" selection-start-line="10" selection-start-column="165" selection-end-line="10" selection-end-column="165" />
+            <state relative-caret-position="234">
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -185,7 +158,6 @@
         <option value="$PROJECT_DIR$/src/Audience.js" />
         <option value="$PROJECT_DIR$/src/Intro07.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/src/Slide01.js" />
         <option value="$PROJECT_DIR$/src/RollSync.js" />
         <option value="$PROJECT_DIR$/src/RollSyncRecursive.js" />
         <option value="$PROJECT_DIR$/src/RollPromise.js" />
@@ -218,6 +190,7 @@
         <option value="$PROJECT_DIR$/src/Thanks.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/Worker03.js" />
+        <option value="$PROJECT_DIR$/src/Slide01.js" />
       </list>
     </option>
   </component>
@@ -403,7 +376,7 @@
       <updated>1517249722356</updated>
       <workItem from="1517249733580" duration="12960000" />
       <workItem from="1517265835145" duration="4506000" />
-      <workItem from="1517283644465" duration="29307000" />
+      <workItem from="1517283644465" duration="29608000" />
     </task>
     <task id="LOCAL-00001" summary="update readme">
       <created>1517266181672</created>
@@ -489,11 +462,25 @@
       <option name="project" value="LOCAL" />
       <updated>1517348298174</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add new slides">
+      <created>1517431983914</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1517431983914</updated>
+    </task>
+    <task id="LOCAL-00014" summary="add media">
+      <created>1517432014141</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1517432014141</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46773000" />
+    <option name="totallyTimeSpent" value="47074000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="928" extended-state="6" />
@@ -540,7 +527,8 @@
     <MESSAGE value="update colors" />
     <MESSAGE value="add images" />
     <MESSAGE value="add new slides" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new slides" />
+    <MESSAGE value="add media" />
+    <option name="LAST_COMMIT_MESSAGE" value="add media" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1014,16 +1002,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Slide01.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Intro3.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -1148,14 +1126,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thanks.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="6" column="115" lean-forward="false" selection-start-line="6" selection-start-column="115" selection-end-line="6" selection-end-column="115" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -1168,9 +1138,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Worker03.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="10" column="165" lean-forward="false" selection-start-line="10" selection-start-column="165" selection-end-line="10" selection-end-column="165" />
+        <state relative-caret-position="234">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Thanks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="6" column="120" lean-forward="true" selection-start-line="6" selection-start-column="120" selection-end-line="6" selection-end-column="120" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Slide01.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

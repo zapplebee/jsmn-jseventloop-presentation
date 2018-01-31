@@ -9,6 +9,7 @@ export default (props) => (
     <h2 className='subtitle is-4' style={{color: '#555'}}>Zachary Skalko | <a href='https://twitter.com/zapplebee'><span className="icon has-text-info">
   <i className="fa fa-twitter"></i>
     </span><span style={{marginLeft: '0'}}>@zapplebee</span></a></h2>
+    <h2 className='subtitle is-4' style={{color: '#555', marginTop: '1em', fontSize: '1em'}}>https://github.com/zapplebee/jsmn-jseventloop-presentation</h2>
 
     <img src={png} style={{position: 'absolute', right: '3rem', top: '3rem', height: '40vmin', height: '40vmin', boxShadow: '5px 5px 5px black'}}/>
   </Section>
