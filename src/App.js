@@ -42,55 +42,102 @@ import Callback04 from './Callback04'
 import Callback05 from './Callback05'
 import Callback06 from './Callback06'
 import Audience from './Audience'
+import Contrived from './Contrived'
+import Contrived2 from './Contrived2'
+import Contrived3 from './Contrived3'
+import RollSetTimeout from './RollSetTimeout'
+import RollSyncRecursive from './RollSyncRecursive'
+import RollAnimation from './RollAnimation'
+import RollPromise from './RollPromise'
+import CanIUse from './CanIUse'
+import WhyIs from './WhyIsSingleThreadedGood'
+import Candidates from './Canditates'
+import Nope from './Nope'
+import S1 from './SingleThreaded'
+import S2 from './SingleThreaded2'
+import EventLoop from './EventLoop'
+import SoHow1 from './SoHow'
+import SoHow2 from './SoHow2'
+import SoHow3 from './WebAPIs'
+import Back1 from './BackToReality'
+import Back2 from './BackToReality2'
+import Thanks from './Thanks'
+
 import 'highlight.js/styles/solarized-dark.css'
 
 const Pages = [
   {route: '/', component: Slide01},
   {route: '/1', component: Slide02},
-  {route: '/intro-02', component: Intro02},
-  {route: '/intro-01', component: Intro01},
-  {route: '/intro-02a', component: Intro02a},
-  {route: '/intro-02b', component: Intro02b},
-  {route: '/the-stack', component: TheStack},
-  {route: '/intro-03', component: Intro03},
-  {route: '/intro-03a', component: Intro06a},
-  {route: '/intro-03b', component: Intro06b},
-  {route: '/intro-04', component: Audience},
+  {route: '/2', component: Intro02},
+  {route: '/3', component: Intro01},
+  {route: '/4', component: Intro02a},
+  {route: '/5', component: Intro02b},
+  {route: '/6', component: Audience},
+  {route: '/7', component: WhyIs},
+  {route: '/8', component: TheStack},
+  {route: '/9', component: Intro03},
+  {route: '/10', component: Intro06a},
+  {route: '/11', component: Intro06b},
+  {route: '/12', component: Audience},
+  {route: '/13', component: Intro06b},
+  {route: '/14', component: Contrived},
+  {route: '/15', component: Contrived2},
+  {route: '/16', component: Contrived3},
   // {route: '/intro-04', component: Intro04},
   // {route: '/intro-05', component: Intro05},
-  {route: '/intro-06', component: Intro06},
-  {route: '/intro-08', component: ThreadBlocking},
-  {route: '/intro-07', component: Intro07},
-  {route: '/callback-01', component: Callback01},
-  {route: '/callback-02', component: Callback03},
-  {route: '/callback-03', component: Callback04},
-  {route: '/callback-04', component: Callback02},
-  {route: '/callback-05', component: Callback05},
-  {route: '/callback-06', component: Callback06},
-  {route: '/callback-07', component: Intro06},
-  {route: '/callback-08', component: Audience},
+  {route: '/17', component: Intro06},
+  {route: '/18', component: ThreadBlocking},
+  {route: '/19', component: Candidates},
+  {route: '/20', component: Intro07},
+  {route: '/21', component: Callback01},
+  {route: '/22', component: Callback03},
+  {route: '/23', component: Callback04},
+  {route: '/24', component: Callback02},
+  {route: '/25', component: Callback05},
+  {route: '/26', component: Callback06},
+
+  {route: '/27', component: Audience},
+  {route: '/28', component: Intro06},
+  {route: '/29', component: RollSyncRecursive},
+  {route: '/30', component: Nope},
+  {route: '/31', component: S1},
+  // {route: '/callback-06d', component: S2},
+
+  // {route: '/32', component: Callback02},
+  {route: '/33', component: EventLoop},
+  {route: '/34', component: SoHow1},
+  {route: '/35', component: SoHow2},
+  {route: '/36', component: Intro02},
+  {route: '/37', component: SoHow3},
+  {route: '/38', component: RollSetTimeout},
+  {route: '/39', component: RollAnimation},
+  {route: '/40', component: RollPromise},
 
 
-  {route: '/multithread-01', component: MultiThread01},
-  {route: '/multithread-02', component: MultiThread02},
-  {route: '/multithread-03', component: MultiThread03},
-  {route: '/multithread-04', component: MultiThread04},
-  {route: '/multithread-05', component: MultiThread04b},
-  {route: '/multithread-06', component: MultiThread04c},
-  {route: '/multithread-07', component: MultiThread05},
-  {route: '/multithread-08', component: MultiThread06},
-  {route: '/multithread-09', component: MultiThread07},
-  {route: '/gpu-01', component: GPU01},
-  {route: '/gpu-01a', component: GPU01a},
-  {route: '/gpu-02', component: GPU02},
-  {route: '/gpu-03', component: GPU03},
-  {route: '/gpu-04', component: GPU06},
-  {route: '/gpu-05', component: GPU07},
-  {route: '/worker-01', component: Worker01},
-  {route: '/worker-02', component: Worker02},
-  {route: '/worker-03', component: Worker03},
-  {route: '/worker-04', component: Worker04},
-  {route: '/worker-05', component: Worker05},
+  {route: '/41', component: MultiThread01},
+  {route: '/42', component: MultiThread02},
+  {route: '/43', component: MultiThread03},
+  {route: '/44', component: MultiThread04},
+  {route: '/45', component: MultiThread04b},
+  {route: '/46', component: MultiThread04c},
+  {route: '/47', component: MultiThread05},
+  {route: '/48', component: MultiThread06},
+  {route: '/49', component: MultiThread07},
+  {route: '/50', component: GPU01},
+  // {route: '/gpu-01a', component: GPU01a},
+  {route: '/51', component: GPU02},
+  {route: '/52', component: GPU03},
+  {route: '/53', component: GPU06},
+  {route: '/54', component: GPU07},
+  {route: '/55', component: Worker01},
+  {route: '/56', component: Worker02},
+  {route: '/57', component: Worker03},
+  {route: '/58', component: CanIUse},
+  {route: '/59', component: Worker04},
+  {route: '/60', component: Worker05},
+  {route: '/61', component: Back1},
+  {route: '/62', component: Back2},
+  {route: '/63', component: Thanks},
   ]
 
 class Clicker extends Component {

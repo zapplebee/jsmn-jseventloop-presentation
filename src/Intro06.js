@@ -20,37 +20,21 @@ class m07 extends React.Component {
       <Section className='is-warning is-bold'>
         <div style={{display: 'flex', justifyContent: 'center', width: '100%', alignItems: 'center'}}>
           <code className='javascript' style={codeStyle} ref={node => {this.nodes.push(node)}}>
-            {`
-const d20 = (isLucky) => {
-  console.log(\`Rolling my \${isLucky ? 'lucky' : 'unlucky'} D20\`)
-  if (isLucky) {
-    return Math.ceil(Math.random() * 20)
-  } else {
-    return Math.min(
-      ...Array(3).fill(null).map(() => Math.ceil(Math.random() * 20))
-    )
-  }
-}
-
-const roll = (lucky) => {
-  console.log('Beginning to roll')
-  const value = d20(lucky)
-  console.log('Just rolled')
-  return value
-}
-
-const getACritical = (lucky) => {
-  let rollValue
+            {`const rollTilCriticalSync = () => {
+  let rollValue;
   do {
-    rollValue = roll(lucky)
-    console.log('got a ', rollValue)
-  } while ( rollValue < 20 )
-  console.log('%c CRITICAL! ', 'background: #fba000; color: #cc0000; font-size: 2rem')
-}
-            `}
+    if (runAway) {
+      return null;
+    } else {
+      rollValue = rollFunction();
+    }
+  } while (rollValue < 20);
+
+  return rollValue;
+};`}
           </code>
         </div>
-        <a href='https://s.codepen.io/zapplebee/debug/xYxozO/mVkbGEQRZpZM' target='_blank'>Codepen</a>
+        <a href='https://s.codepen.io/zapplebee/debug/xYxozO/vPAKKVnZvbdA' target='_blank'>Codepen</a>
       </Section>
     )
   }

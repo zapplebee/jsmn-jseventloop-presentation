@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+    <style>
+        div {
+            display: flex;
+            flex-direction: column;
+        }
+        div * {
+            font-size: 36px;
+            margin-bottom: 1rem;
+        }
+
+        * {
+            font-family: sans-serif;
+        }
+
+        button {
+            background-color: #ccc;
+            border: 0;
+            padding: 0.5em;
+        }
+
+        select {
+            padding: 0.5em;
+        }
+
+        .runAway {
+            background-color: #a48caf;
+            color: white;
+        }
+
+        .startSyncRolling {
+            background-color: #ea8519;
+            color: white;
+        }
+
+        button:active {
+            background-color: red !important;
+        }
+    </style>
+</head>
+<body>
+<button>Roll in a Web Worker</button>
+<script>
+  const button = document.querySelector('button')
+
+  if (window.Worker) {
+    const myWorker = new Worker("/worker.js");
+    const send = () => {myWorker.postMessage('payload')}
+    button.addEventListener('click', send, false)
+    myWorker.onmessage = e => {
+      console.log(
+        "%c YOU ROLLED A CRITICAL IN " + e.data + " ROLLS!",
+        "background: #222; color: #fba000; font-size: 2rem"
+      );
+    }
+  }
+</script>
+</body>
+</html>

@@ -21,7 +21,7 @@ class m07 extends React.Component {
           {`const formData = new FormData();
 const fileField = document.querySelector("input[type='file']");
 
-fetch('https://zapplebee.jupiterns.org/a-very-long-process', {
+fetch('https://youraddress.com/a-very-long-process', {
   method: 'POST',
   body: formData
 })

@@ -7,7 +7,7 @@ export default (props) => (
     <div className='content'>
       <ol>
         <li style={{marginBottom: '1.5rem'}}><h1 className='title is-3'>Full JavaScript</h1><p>You can do it all. Even network requests</p></li>
-        <li style={{marginBottom: '1.5rem'}}><h1 className='title is-3'>Local</h1><p>Run it on the local machine. Even if the client is offline</p></li>
+        <li style={{marginBottom: '1.5rem'}}><h1 className='title is-3'>Local</h1><p>Run it on the local machine.</p></li>
         <li style={{marginBottom: '1.5rem'}}><h1 className='title is-3'>True parallelism</h1><p>Doesn't block the main thread</p></li>
       </ol>
     </div>
