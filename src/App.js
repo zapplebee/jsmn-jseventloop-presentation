@@ -76,9 +76,10 @@ const Pages = [
   {route: '/7', component: WhyIs},
   {route: '/8', component: TheStack},
   {route: '/9', component: Intro03},
-  {route: '/10', component: Intro06a},
-  {route: '/11', component: Intro06b},
-  {route: '/12', component: Audience},
+
+  {route: '/10', component: Audience},
+  {route: '/11', component: Intro06a},
+  {route: '/12', component: Intro06b},
   {route: '/13', component: Intro06b},
   {route: '/14', component: Contrived},
   {route: '/15', component: Contrived2},

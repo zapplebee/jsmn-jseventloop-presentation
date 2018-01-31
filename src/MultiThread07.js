@@ -18,12 +18,9 @@ class m07 extends React.Component {
       <Section className='is-warning is-bold'>
         <div style={{display: 'flex', justifyContent: 'center', width: '100%'}}>
         <code className='javascript' style={{whiteSpace: 'pre', display: 'inline-block', margin: 'auto', alignSelf:'center', padding: '2em', fontSize: '1.25rem'}} ref={node => {this.node = node}}>
-          {`const formData = new FormData();
-const fileField = document.querySelector("input[type='file']");
-
-fetch('https://youraddress.com/a-very-long-process', {
+          {`fetch('https://youraddress.com/a-very-long-process', {
   method: 'POST',
-  body: formData
+  body: someDataThatNeedsProcessing
 })
 .then(response => response.json())
 .catch(error => console.error('Error:', error))
